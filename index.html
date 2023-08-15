@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styles */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f8e9; /* Light beige background for the entire page */
+        }
+        .centered-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the left */
+            text-align: left; /* Left-align text */
+            height: 100%;
+            padding-left: 5%; /* Move container more to the left on mobile */
+            padding-right: 10%; /* Slightly wider container on mobile */
+            color: black; /* Black text color */
+        }
+        .header {
+            font-size: 28px; /* Larger header text */
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .sub-header {
+            font-size: 20px; /* Slightly larger sub-header text */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .normal-text {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 16px;
+        }
+        a {
+            color: rgb(110, 110, 110); /* Gray hyperlink color */
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ccc; /* Placeholder color for profile photo */
+            margin-bottom: 20px;
+            border: 2px solid black; /* 2px black border */
+        }
+        @media (max-width: 768px) {
+            .centered-container {
+                padding-left: 5%; /* Further adjust left padding for smaller screens */
+                padding-right: 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container centered-container">
+        <div class="profile-photo">
+            <img src="profile.jpeg" alt="Profile Photo" style="width: 100%; height: 100%; border-radius: 50%;">
+        </div>
+        <h1 class="header">Hi, I'm Eijaz Kara</h1>
+        <p class="sub-header">I'm a former management consultant turned operator.</p>
+        <p class="normal-text"><br>At <a href="https://www.ibm.com/consulting/strategy">IBM</a>, I worked with clients in financial services, energy, tech, and the public sector.<br>Afterwards, I moved to <a href="https://www.rbc.com/our-company/index.html">RBC</a>'s Enterprise Strategy team where I solved the Bank's major strategic and transformational problems.<br>Most recently, I ran Business Operations at <a href="https://www.daily.co/">Daily</a> (YC W16).<br><br></p>
+        <p class="normal-text">I'm currently based across London, UK and Toronto, Canada.</p>
+        <p class="contact-info">You can reach me here: <br> <a href="https://www.linkedin.com/in/eijazkara/">LinkedIn</a> / <a href="https://twitter.com/eijazkara">Twitter</a> / <a href="mailto:eijaz[dot]kara[at]gmail.com">Email</a></p>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
